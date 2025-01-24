@@ -53,19 +53,5 @@ public class LivroModel {
     @Column(name = "preco", nullable = true)
     private Double preco;
 
-    public LivroModel(Long id_livro, String titulo, String autor, String editora, Integer ano_publicacao, String genero,
-            String isbn, Integer num_paginas, String sinopse, String idioma, Timestamp data_cadastro, Double preco) {
-        this.id_livro = id_livro;
-        this.titulo = titulo;
-        this.autor = autor;
-        this.editora = editora;
-        this.ano_publicacao = ano_publicacao;
-        this.genero = genero;
-        this.isbn = isbn;
-        this.num_paginas = num_paginas;
-        this.sinopse = sinopse;
-        this.idioma = idioma;
-        this.data_cadastro = data_cadastro;
-        this.preco = preco;
-    }
+
 }
